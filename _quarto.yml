@@ -2,10 +2,14 @@ project:
   type: website
 
 website:
-  title: "Deven's blog"
+  title: "Deven Mistry"
   navbar:
     right:
       - about.qmd
+      - text: "Blog"
+        file: blog.qmd
+      - text: "TIL"
+        file: til.qmd
       - icon: github
         href: https://github.com/
       - icon: twitter
