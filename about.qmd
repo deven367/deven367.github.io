@@ -1,18 +1,18 @@
 ---
-title: "About"
+title: "About Me"
 image: profile.jpg
 about:
   template: jolla
   links:
     - icon: twitter
       text: Twitter
-      href: https://twitter.com
+      href: https://twitter.com/deven367
     - icon: linkedin
       text: LinkedIn
-      href: https://linkedin.com
+      href: https://www.linkedin.com/in/deven-mistry367/
     - icon: github
       text: Github
-      href: https://github.com
+      href: https://github.com/deven367
 
 ---
 
