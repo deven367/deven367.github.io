@@ -5,6 +5,7 @@ project:
 
 website:
   title: "Deven Mistry"
+  site-url: https://deven367.github.io/blog
   navbar:
     right:
       - about.qmd
