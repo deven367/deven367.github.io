@@ -28,6 +28,27 @@
     "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 14, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nNov 11, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCleaning text for NLP tasks\n\n\n\n\n\n\n\ntext preprocessing\n\n\ntokenization\n\n\nlemmatization\n\n\nregex\n\n\nnltk\n\n\n\n\nA simple guide for cleaning text\n\n\n\n\n\n\nJun 15, 2021\n\n\n\n\n\n\nNo matching items"
   },
   {
+    "objectID": "TIL/isinstance-vs-type.html",
+    "href": "TIL/isinstance-vs-type.html",
+    "title": "isinstance vs type and == vs is",
+    "section": "",
+    "text": "There are multiple ways in Python to achieve a single task and at times you can get away with implementing things the wrong way and getting the correct answer.\nThis TIL has come into existence as I struggled with a issue that I was trying to fix at work."
+  },
+  {
+    "objectID": "TIL/isinstance-vs-type.html#isinstance-vs-type",
+    "href": "TIL/isinstance-vs-type.html#isinstance-vs-type",
+    "title": "isinstance vs type and == vs is",
+    "section": "isinstance vs type",
+    "text": "isinstance vs type\nWe’ve all used the type and the isinstance method at some point in our functions.\ns = 'foo'\nif type(s) == str:\n    print('this variable is of string type')\n\nif isinstance(s, str):\n    print('this variable is of string type')\nIf you were to execute this code, you would get the same output.\nBut what’s the difference between them?\ninstance can check types of even derived classes (meaning, it is intended to be used in cases involving inheritence) whereas type is not.\nTLDR; 1\nclass Person: pass\n\nclass Student(Person): pass\n\n\nisinstance(Person(), Person)        # returns True\ntype(Student()) == Student          # returns True\nisinstance(Student(), Person)       # returns True\ntype(Student()) == Person           # returns False, and this probably won't be what you want.\nThere’s a similar confusion between is and ==."
+  },
+  {
+    "objectID": "TIL/isinstance-vs-type.html#is-vs",
+    "href": "TIL/isinstance-vs-type.html#is-vs",
+    "title": "isinstance vs type and == vs is",
+    "section": "is vs ==",
+    "text": "is vs ==\nis looks for the same object (in memory), whereas == looks for the values referred by the variables.\nTLDR; 2\nn = 5\nif n == 5: print('Yep!')    # prints Yep!\nif n is 5: print('Yay!')    # prints Yep!\n\nL = []\nL.append(1)\n\nif L == [1]: print('Yay!')  # prints Yep!\nif L is [1]: print('Yay!')  # prints nothing\nH/T to Zach Mueller for helping me understand this"
+  },
+  {
     "objectID": "TIL/learning-from-pkl-files.html",
     "href": "TIL/learning-from-pkl-files.html",
     "title": "Learning from pkl files",
@@ -46,7 +67,7 @@
     "href": "til.html",
     "title": "Today I Learned (TIL)",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Categories\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nNov 15, 2022\n\n\nLearning from pkl files\n\n\npkl,pytorch,fastai\n\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Categories\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nNov 18, 2022\n\n\nisinstance vs type and == vs is\n\n\npython\n\n\n\n\nNov 15, 2022\n\n\nLearning from pkl files\n\n\npkl,pytorch,fastai\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",

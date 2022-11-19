@@ -6,15 +6,80 @@
       version="2.0">
 <channel>
 <title>Deven Mistry</title>
-<link>https://github.com/deven367/blog/til.html</link>
-<atom:link href="https://github.com/deven367/blog/til.xml" rel="self" type="application/rss+xml"/>
+<link>https://deven367.github.io/blog/til.html</link>
+<atom:link href="https://deven367.github.io/blog/til.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.2.269</generator>
-<lastBuildDate>Tue, 15 Nov 2022 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 18 Nov 2022 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>isinstance vs type and == vs is</title>
+  <dc:creator>Deven Mistry</dc:creator>
+  <link>https://deven367.github.io/blog/TIL/isinstance-vs-type.html</link>
+  <description><![CDATA[ 
+
+
+
+
+<p>There are multiple ways in Python to achieve a single task and at times you can get away with implementing things the wrong way and getting the correct answer.</p>
+<p>This TIL has come into existence as I struggled with a issue that I was trying to fix at work.</p>
+<section id="isinstance-vs-type" class="level2">
+<h2 class="anchored" data-anchor-id="isinstance-vs-type"><code>isinstance</code> vs <code>type</code></h2>
+<p>We’ve all used the <code>type</code> and the <code>isinstance</code> method at some point in our functions.</p>
+<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb1-1">s <span class="op" style="color: #5E5E5E;">=</span> <span class="st" style="color: #20794D;">'foo'</span></span>
+<span id="cb1-2"><span class="cf" style="color: #003B4F;">if</span> <span class="bu" style="color: null;">type</span>(s) <span class="op" style="color: #5E5E5E;">==</span> <span class="bu" style="color: null;">str</span>:</span>
+<span id="cb1-3">    <span class="bu" style="color: null;">print</span>(<span class="st" style="color: #20794D;">'this variable is of string type'</span>)</span>
+<span id="cb1-4"></span>
+<span id="cb1-5"><span class="cf" style="color: #003B4F;">if</span> <span class="bu" style="color: null;">isinstance</span>(s, <span class="bu" style="color: null;">str</span>):</span>
+<span id="cb1-6">    <span class="bu" style="color: null;">print</span>(<span class="st" style="color: #20794D;">'this variable is of string type'</span>)</span></code></pre></div>
+<p>If you were to execute this code, you would get the same output.</p>
+<p>But what’s the difference between them?</p>
+<p><code>instance</code> can check types of even derived classes (meaning, it is intended to be used in cases involving inheritence) whereas <code>type</code> is not.</p>
+<p>TLDR; <sup>1</sup></p>
+<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="kw" style="color: #003B4F;">class</span> Person: <span class="cf" style="color: #003B4F;">pass</span></span>
+<span id="cb2-2"></span>
+<span id="cb2-3"><span class="kw" style="color: #003B4F;">class</span> Student(Person): <span class="cf" style="color: #003B4F;">pass</span></span>
+<span id="cb2-4"></span>
+<span id="cb2-5"></span>
+<span id="cb2-6"><span class="bu" style="color: null;">isinstance</span>(Person(), Person)        <span class="co" style="color: #5E5E5E;"># returns True</span></span>
+<span id="cb2-7"><span class="bu" style="color: null;">type</span>(Student()) <span class="op" style="color: #5E5E5E;">==</span> Student          <span class="co" style="color: #5E5E5E;"># returns True</span></span>
+<span id="cb2-8"><span class="bu" style="color: null;">isinstance</span>(Student(), Person)       <span class="co" style="color: #5E5E5E;"># returns True</span></span>
+<span id="cb2-9"><span class="bu" style="color: null;">type</span>(Student()) <span class="op" style="color: #5E5E5E;">==</span> Person           <span class="co" style="color: #5E5E5E;"># returns False, and this probably won't be what you want.</span></span></code></pre></div>
+<p>There’s a similar confusion between <code>is</code> and <code>==</code>.</p>
+</section>
+<section id="is-vs" class="level2">
+<h2 class="anchored" data-anchor-id="is-vs"><code>is</code> vs <code>==</code></h2>
+<p><code>is</code> looks for the same object (in memory), whereas <code>==</code> looks for the values referred by the variables.</p>
+<p>TLDR; <sup>2</sup></p>
+<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb3-1">n <span class="op" style="color: #5E5E5E;">=</span> <span class="dv" style="color: #AD0000;">5</span></span>
+<span id="cb3-2"><span class="cf" style="color: #003B4F;">if</span> n <span class="op" style="color: #5E5E5E;">==</span> <span class="dv" style="color: #AD0000;">5</span>: <span class="bu" style="color: null;">print</span>(<span class="st" style="color: #20794D;">'Yep!'</span>)    <span class="co" style="color: #5E5E5E;"># prints Yep!</span></span>
+<span id="cb3-3"><span class="cf" style="color: #003B4F;">if</span> n <span class="kw" style="color: #003B4F;">is</span> <span class="dv" style="color: #AD0000;">5</span>: <span class="bu" style="color: null;">print</span>(<span class="st" style="color: #20794D;">'Yay!'</span>)    <span class="co" style="color: #5E5E5E;"># prints Yep!</span></span>
+<span id="cb3-4"></span>
+<span id="cb3-5">L <span class="op" style="color: #5E5E5E;">=</span> []</span>
+<span id="cb3-6">L.append(<span class="dv" style="color: #AD0000;">1</span>)</span>
+<span id="cb3-7"></span>
+<span id="cb3-8"><span class="cf" style="color: #003B4F;">if</span> L <span class="op" style="color: #5E5E5E;">==</span> [<span class="dv" style="color: #AD0000;">1</span>]: <span class="bu" style="color: null;">print</span>(<span class="st" style="color: #20794D;">'Yay!'</span>)  <span class="co" style="color: #5E5E5E;"># prints Yep!</span></span>
+<span id="cb3-9"><span class="cf" style="color: #003B4F;">if</span> L <span class="kw" style="color: #003B4F;">is</span> [<span class="dv" style="color: #AD0000;">1</span>]: <span class="bu" style="color: null;">print</span>(<span class="st" style="color: #20794D;">'Yay!'</span>)  <span class="co" style="color: #5E5E5E;"># prints nothing</span></span></code></pre></div>
+<p>H/T to <a href="https://github.com/muellerzr">Zach Mueller</a> for helping me understand this</p>
+
+
+</section>
+
+
+<div id="quarto-appendix" class="default"><section id="footnotes" class="footnotes footnotes-end-of-document"><h2 class="anchored quarto-appendix-heading">Footnotes</h2>
+
+<ol>
+<li id="fn1"><p><a href="https://stackoverflow.com/questions/1549801/what-are-the-differences-between-type-and-isinstance">differences between type() and isinstance()?</a>↩︎</p></li>
+<li id="fn2"><p><a href="https://stackoverflow.com/questions/132988/is-there-a-difference-between-and-is">difference between “==” and “is”?</a>↩︎</p></li>
+</ol>
+</section></div> ]]></description>
+  <category>python</category>
+  <guid>https://deven367.github.io/blog/TIL/isinstance-vs-type.html</guid>
+  <pubDate>Fri, 18 Nov 2022 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Learning from pkl files</title>
   <dc:creator>Deven Mistry</dc:creator>
-  <link>https://github.com/deven367/blog/TIL/learning-from-pkl-files.html</link>
+  <link>https://deven367.github.io/blog/TIL/learning-from-pkl-files.html</link>
   <description><![CDATA[ 
 
 
@@ -90,7 +155,7 @@ Note
   <category>pkl</category>
   <category>pytorch</category>
   <category>fastai</category>
-  <guid>https://github.com/deven367/blog/TIL/learning-from-pkl-files.html</guid>
+  <guid>https://deven367.github.io/blog/TIL/learning-from-pkl-files.html</guid>
   <pubDate>Tue, 15 Nov 2022 00:00:00 GMT</pubDate>
 </item>
 </channel>

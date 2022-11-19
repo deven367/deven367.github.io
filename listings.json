@@ -18,6 +18,7 @@
   {
     "listing": "/til.html",
     "items": [
+      "/TIL/isinstance-vs-type.html",
       "/TIL/learning-from-pkl-files.html"
     ]
   }

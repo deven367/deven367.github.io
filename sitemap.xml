@@ -1,35 +1,39 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://github.com/deven367/blog/posts/2021-06-15-Cleaning text for NLP tasks.html</loc>
-    <lastmod>2022-11-19T02:52:06.605Z</lastmod>
+    <loc>https://deven367.github.io/blog/posts/2021-06-15-Cleaning text for NLP tasks.html</loc>
+    <lastmod>2022-11-19T04:11:19.202Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/deven367/blog/posts/post-with-code/index.html</loc>
-    <lastmod>2022-11-19T02:52:07.241Z</lastmod>
+    <loc>https://deven367.github.io/blog/posts/post-with-code/index.html</loc>
+    <lastmod>2022-11-19T04:11:21.082Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/deven367/blog/posts/welcome/index.html</loc>
-    <lastmod>2022-11-19T02:52:07.541Z</lastmod>
+    <loc>https://deven367.github.io/blog/posts/welcome/index.html</loc>
+    <lastmod>2022-11-19T04:11:21.490Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/deven367/blog/index.html</loc>
-    <lastmod>2022-11-19T02:52:07.889Z</lastmod>
+    <loc>https://deven367.github.io/blog/index.html</loc>
+    <lastmod>2022-11-19T04:11:21.910Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/deven367/blog/TIL/learning-from-pkl-files.html</loc>
-    <lastmod>2022-11-19T02:52:08.769Z</lastmod>
+    <loc>https://deven367.github.io/blog/TIL/isinstance-vs-type.html</loc>
+    <lastmod>2022-11-19T04:11:23.006Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/deven367/blog/blog.html</loc>
-    <lastmod>2022-11-19T02:52:09.449Z</lastmod>
+    <loc>https://deven367.github.io/blog/TIL/learning-from-pkl-files.html</loc>
+    <lastmod>2022-11-19T04:11:23.654Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/deven367/blog/til.html</loc>
-    <lastmod>2022-11-19T02:52:09.729Z</lastmod>
+    <loc>https://deven367.github.io/blog/blog.html</loc>
+    <lastmod>2022-11-19T04:11:24.478Z</lastmod>
   </url>
   <url>
-    <loc>https://github.com/deven367/blog/about.html</loc>
-    <lastmod>2022-11-19T02:52:10.001Z</lastmod>
+    <loc>https://deven367.github.io/blog/til.html</loc>
+    <lastmod>2022-11-19T04:11:24.862Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deven367.github.io/blog/about.html</loc>
+    <lastmod>2022-11-19T04:11:25.198Z</lastmod>
   </url>
 </urlset>
