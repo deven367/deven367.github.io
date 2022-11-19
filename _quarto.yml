@@ -14,9 +14,9 @@ website:
       - text: "TIL"
         file: til.qmd
       - icon: github
-        href: https://github.com/
+        href: https://github.com/deven367/blog
       - icon: twitter
-        href: https://twitter.com
+        href: https://twitter.com/deven367
   favicon: favicon.png
 
 format:
