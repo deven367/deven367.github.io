@@ -1,17 +1,24 @@
 [
   {
-    "objectID": "posts/2021-06-15-Cleaning text for NLP tasks.html",
-    "href": "posts/2021-06-15-Cleaning text for NLP tasks.html",
-    "title": "Cleaning text for NLP tasks",
+    "objectID": "blog.html",
+    "href": "blog.html",
+    "title": "Blog",
     "section": "",
-    "text": "I started working in the field of Natual Language Processing back in August 2020. I am no expert in this field but in the past few months that I have spent my time cleaning textual data from different sources, I did manage to learn a few things and I am here to share them. These tips/suggestions are coming from someone who has had no prior experience in NLP at all. I hope whoever is reading this gets to learn something out of it. With that being said, let’s get started!\n\n\n\nThere are a few simple parameters which people don’t often use while read txt files"
+    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 14, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nNov 11, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCleaning text for NLP tasks\n\n\n\n\n\n\n\ntext preprocessing\n\n\ntokenization\n\n\nlemmatization\n\n\nregex\n\n\nnltk\n\n\n\n\nA simple guide for cleaning text\n\n\n\n\n\n\nJun 15, 2021\n\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "posts/post-with-code/index.html",
-    "href": "posts/post-with-code/index.html",
-    "title": "Post With Code",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About Me",
     "section": "",
-    "text": "This is a post with executable code."
+    "text": "About this blog"
+  },
+  {
+    "objectID": "til.html",
+    "href": "til.html",
+    "title": "Today I Learned (TIL)",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Categories\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nNov 18, 2022\n\n\nisinstance vs type and == vs is\n\n\npython\n\n\n\n\nNov 15, 2022\n\n\nLearning from pkl files\n\n\npkl,pytorch,fastai\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/welcome/index.html",
@@ -21,11 +28,32 @@
     "text": "This is the first post in a Quarto blog. Welcome!\n\nSince this post doesn’t specify an explicit image, the first image in the post will be used in the listing page of posts."
   },
   {
+    "objectID": "posts/post-with-code/index.html",
+    "href": "posts/post-with-code/index.html",
+    "title": "Post With Code",
+    "section": "",
+    "text": "This is a post with executable code."
+  },
+  {
+    "objectID": "posts/2021-06-15-Cleaning text for NLP tasks.html",
+    "href": "posts/2021-06-15-Cleaning text for NLP tasks.html",
+    "title": "Cleaning text for NLP tasks",
+    "section": "",
+    "text": "I started working in the field of Natual Language Processing back in August 2020. I am no expert in this field but in the past few months that I have spent my time cleaning textual data from different sources, I did manage to learn a few things and I am here to share them. These tips/suggestions are coming from someone who has had no prior experience in NLP at all. I hope whoever is reading this gets to learn something out of it. With that being said, let’s get started!\n\n\n\nThere are a few simple parameters which people don’t often use while read txt files"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "Deven’s blog",
     "section": "",
     "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 14, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nNov 11, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCleaning text for NLP tasks\n\n\n\n\n\n\n\ntext preprocessing\n\n\ntokenization\n\n\nlemmatization\n\n\nregex\n\n\nnltk\n\n\n\n\nA simple guide for cleaning text\n\n\n\n\n\n\nJun 15, 2021\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "TIL/learning-from-pkl-files.html",
+    "href": "TIL/learning-from-pkl-files.html",
+    "title": "Learning from pkl files",
+    "section": "",
+    "text": "When we train a model using fastai and export it using learn.export, you need to re-declare the functions that you had used to train the model.\nLet me show you what I mean by that,\nfrom fastai.vision.all import *\nset_seed(99, True)\npath = untar_data(URLs.PETS)/'images'\n\ndef label_func(x): return x[0].isupper()\n\ndls = ImageDataLoaders.from_name_func(\n    path, get_image_files(path), valid_pct=0.2,\n    label_func=label_func, item_tfms=Resize(224))\n\nlearn = vision_learner(dls, resnet34, metrics=error_rate)\nlearn.fine_tune(1)\nlearn.export('saved-model.pkl')\nHere, we are training a simple model for image classification and then exporting the saved model.\nNow, if you were to use this model in a different jupyter notebook or a py file using the load_learner function.\nfrom fastai.vision.all import *\nlearn = load_learner('saved-model.pkl')\nYou would get an error something like this…\n---------------------------------------------------------------------------\nAttributeError                            Traceback (most recent call last)\n<ipython-input-3-c010bc50794d> in <module>\n----> 1 learn = load_learner('saved-model.pkl')\n\n3 frames\n/usr/local/lib/python3.7/dist-packages/torch/serialization.py in find_class(self, mod_name, name)\n   1040                     pass\n   1041             mod_name = load_module_mapping.get(mod_name, mod_name)\n-> 1042             return super().find_class(mod_name, name)\n   1043\n   1044     # Load the data (which may in turn use `persistent_load` to load tensors)\n\nAttributeError: Custom classes or functions exported with your `Learner` not available in namespace.\\Re-declare/import before loading:\n    Can't get attribute 'label_func' on <module '__main__'>\nThis error is essentially saying that, before you load your model, the script (py file) or the notebook is looking for the function label_func.\nPreviously, I would just copy that whole function again from the previous file and paste it in my new file, something like this.\nfrom fastai.vision.all import *\ndef label_func(x): return x[0].isupper()\n\nlearn = load_learner('saved-model.pkl')\nBut, as it turns out, the load_learner is just looking for a reference to the label_func and not it’s entire definition. So, in theory, you could have your code look something like…\nfrom fastai.vision.all import *\n\n## notice the empty function declaration\ndef label_func(x): pass\n\nlearn = load_learner('saved-model.pkl')\nWith this declaration, your inference would work just fine and you won’t get any problems.\n\n\n\n\n\n\nNote\n\n\n\nUse this method only, when you wish to do inference with your model.  If you wish to re-train the model, you would need a new dataloader, label_func and the whole nine-yards.\n\n\nI hope this was helpful. Happy Learning. Cheers!"
   },
   {
     "objectID": "TIL/isinstance-vs-type.html",
@@ -47,33 +75,5 @@
     "title": "isinstance vs type and == vs is",
     "section": "is vs ==",
     "text": "is vs ==\nis looks for the same object (in memory), whereas == looks for the values referred by the variables.\nTLDR; 2\nn = 5\nif n == 5: print('Yep!')    # prints Yep!\nif n is 5: print('Yay!')    # prints Yep!\n\nL = []\nL.append(1)\n\nif L == [1]: print('Yay!')  # prints Yep!\nif L is [1]: print('Yay!')  # prints nothing\nH/T to Zach Mueller for helping me understand this"
-  },
-  {
-    "objectID": "TIL/learning-from-pkl-files.html",
-    "href": "TIL/learning-from-pkl-files.html",
-    "title": "Learning from pkl files",
-    "section": "",
-    "text": "When we train a model using fastai and export it using learn.export, you need to re-declare the functions that you had used to train the model.\nLet me show you what I mean by that,\nfrom fastai.vision.all import *\nset_seed(99, True)\npath = untar_data(URLs.PETS)/'images'\n\ndef label_func(x): return x[0].isupper()\n\ndls = ImageDataLoaders.from_name_func(\n    path, get_image_files(path), valid_pct=0.2,\n    label_func=label_func, item_tfms=Resize(224))\n\nlearn = vision_learner(dls, resnet34, metrics=error_rate)\nlearn.fine_tune(1)\nlearn.export('saved-model.pkl')\nHere, we are training a simple model for image classification and then exporting the saved model.\nNow, if you were to use this model in a different jupyter notebook or a py file using the load_learner function.\nfrom fastai.vision.all import *\nlearn = load_learner('saved-model.pkl')\nYou would get an error something like this…\n---------------------------------------------------------------------------\nAttributeError                            Traceback (most recent call last)\n<ipython-input-3-c010bc50794d> in <module>\n----> 1 learn = load_learner('saved-model.pkl')\n\n3 frames\n/usr/local/lib/python3.7/dist-packages/torch/serialization.py in find_class(self, mod_name, name)\n   1040                     pass\n   1041             mod_name = load_module_mapping.get(mod_name, mod_name)\n-> 1042             return super().find_class(mod_name, name)\n   1043\n   1044     # Load the data (which may in turn use `persistent_load` to load tensors)\n\nAttributeError: Custom classes or functions exported with your `Learner` not available in namespace.\\Re-declare/import before loading:\n    Can't get attribute 'label_func' on <module '__main__'>\nThis error is essentially saying that, before you load your model, the script (py file) or the notebook is looking for the function label_func.\nPreviously, I would just copy that whole function again from the previous file and paste it in my new file, something like this.\nfrom fastai.vision.all import *\ndef label_func(x): return x[0].isupper()\n\nlearn = load_learner('saved-model.pkl')\nBut, as it turns out, the load_learner is just looking for a reference to the label_func and not it’s entire definition. So, in theory, you could have your code look something like…\nfrom fastai.vision.all import *\n\n## notice the empty function declaration\ndef label_func(x): pass\n\nlearn = load_learner('saved-model.pkl')\nWith this declaration, your inference would work just fine and you won’t get any problems.\n\n\n\n\n\n\nNote\n\n\n\nUse this method only, when you wish to do inference with your model.  If you wish to re-train the model, you would need a new dataloader, label_func and the whole nine-yards.\n\n\nI hope this was helpful. Happy Learning. Cheers!"
-  },
-  {
-    "objectID": "blog.html",
-    "href": "blog.html",
-    "title": "Blog",
-    "section": "",
-    "text": "Post With Code\n\n\n\n\n\n\n\nnews\n\n\ncode\n\n\nanalysis\n\n\n\n\n\n\n\n\n\n\n\nNov 14, 2022\n\n\nHarlow Malloc\n\n\n\n\n\n\n  \n\n\n\n\nWelcome To My Blog\n\n\n\n\n\n\n\nnews\n\n\n\n\n\n\n\n\n\n\n\nNov 11, 2022\n\n\nTristan O’Malley\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCleaning text for NLP tasks\n\n\n\n\n\n\n\ntext preprocessing\n\n\ntokenization\n\n\nlemmatization\n\n\nregex\n\n\nnltk\n\n\n\n\nA simple guide for cleaning text\n\n\n\n\n\n\nJun 15, 2021\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "til.html",
-    "href": "til.html",
-    "title": "Today I Learned (TIL)",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Categories\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\n\nDate\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nNov 18, 2022\n\n\nisinstance vs type and == vs is\n\n\npython\n\n\n\n\nNov 15, 2022\n\n\nLearning from pkl files\n\n\npkl,pytorch,fastai\n\n\n\n\n\n\nNo matching items"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About Me",
-    "section": "",
-    "text": "About this blog"
   }
 ]

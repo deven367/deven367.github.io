@@ -9,7 +9,7 @@
 <link>https://deven367.github.io/blog/til.html</link>
 <atom:link href="https://deven367.github.io/blog/til.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.2.269</generator>
+<generator>quarto-1.2.280</generator>
 <lastBuildDate>Fri, 18 Nov 2022 00:00:00 GMT</lastBuildDate>
 <item>
   <title>isinstance vs type and == vs is</title>
