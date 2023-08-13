@@ -8,18 +8,18 @@
     ]
   },
   {
-    "listing": "/til.html",
-    "items": [
-      "/TIL/isinstance-vs-type.html",
-      "/TIL/learning-from-pkl-files.html"
-    ]
-  },
-  {
     "listing": "/index.html",
     "items": [
       "/posts/post-with-code/index.html",
       "/posts/welcome/index.html",
       "/posts/2021-06-15-Cleaning text for NLP tasks.html"
+    ]
+  },
+  {
+    "listing": "/til.html",
+    "items": [
+      "/TIL/isinstance-vs-type.html",
+      "/TIL/learning-from-pkl-files.html"
     ]
   }
 ]
