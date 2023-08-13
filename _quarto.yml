@@ -5,7 +5,7 @@ project:
 
 website:
   title: "Deven Mistry"
-  site-url: https://deven367.github.io/blog
+  site-url: https://deven367.github.io/
   navbar:
     right:
       - about.qmd
@@ -14,14 +14,14 @@ website:
       - text: "TIL"
         file: til.qmd
       - icon: github
-        href: https://github.com/deven367/blog
+        href: https://github.com/deven367/
       - icon: twitter
         href: https://twitter.com/deven367
   favicon: favicon.png
 
 format:
   html:
-    theme: cosmo
+    theme: flatly
     css: styles.css
 
 
