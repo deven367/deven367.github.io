@@ -2,7 +2,7 @@
 title: "About Me"
 image: profile.jpg
 about:
-  template: jolla
+  template: solana
   links:
     - icon: twitter
       text: Twitter
@@ -17,3 +17,9 @@ about:
 ---
 
 About this blog
+
+Hello everyone, I am Deven. I am currently a PhD student at Indiana University Bloomington. I am a part of Dr. Zoran Tiganj's Lab.
+
+Before this, I was a Full Stack ML Developer at GQC, where I worked on a lot of interesting projects ranging from flood detection, flood segmentation, LLM finetuning and much more.
+
+During my Masters, I was at the University of Cincinnati, where I was a part of Dr. Ali Minai's [Complex Adaptive Systems Laboratory](https://eecs.ceas.uc.edu/~minaiaa/casl.htm). My masters thesis can be found [here](https://etd.ohiolink.edu/acprod/odb_etd/etd/r/1501/10?clear=10&p10_accession_num=ucin1637311155942699)
