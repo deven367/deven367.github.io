@@ -9,6 +9,8 @@ website:
   navbar:
     right:
       - about.qmd
+      - text: "Projects"
+        file: projects.qmd
       - text: "Blog"
         file: blog.qmd
       - text: "TIL"
