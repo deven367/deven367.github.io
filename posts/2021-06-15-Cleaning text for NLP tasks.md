@@ -11,7 +11,6 @@ categories:
 date: '2021-06-15'
 description: A simple guide for cleaning text
 layout: post
-title: Cleaning text for NLP tasks
 toc: true
 
 ---
