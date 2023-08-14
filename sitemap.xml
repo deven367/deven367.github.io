@@ -2,38 +2,62 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://deven367.github.io/posts/post-with-code/index.html</loc>
-    <lastmod>2023-08-13T14:52:02.597Z</lastmod>
+    <lastmod>2023-08-14T18:58:20.040Z</lastmod>
   </url>
   <url>
     <loc>https://deven367.github.io/posts/2021-06-15-Cleaning text for NLP tasks.html</loc>
-    <lastmod>2023-08-13T14:52:02.053Z</lastmod>
+    <lastmod>2023-08-14T18:58:19.232Z</lastmod>
   </url>
   <url>
-    <loc>https://deven367.github.io/blog.html</loc>
-    <lastmod>2023-08-13T14:52:01.449Z</lastmod>
-  </url>
-  <url>
-    <loc>https://deven367.github.io/index.html</loc>
-    <lastmod>2023-08-13T14:52:00.649Z</lastmod>
-  </url>
-  <url>
-    <loc>https://deven367.github.io/TIL/isinstance-vs-type.html</loc>
-    <lastmod>2023-08-13T14:51:57.837Z</lastmod>
-  </url>
-  <url>
-    <loc>https://deven367.github.io/TIL/learning-from-pkl-files.html</loc>
-    <lastmod>2023-08-13T14:51:58.757Z</lastmod>
+    <loc>https://deven367.github.io/projects.html</loc>
+    <lastmod>2023-08-14T18:58:18.444Z</lastmod>
   </url>
   <url>
     <loc>https://deven367.github.io/til.html</loc>
-    <lastmod>2023-08-13T14:52:00.973Z</lastmod>
+    <lastmod>2023-08-14T18:58:16.836Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deven367.github.io/projects/masters-thesis.html</loc>
+    <lastmod>2023-08-14T18:58:15.108Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deven367.github.io/projects/ndbev-oauth.html</loc>
+    <lastmod>2023-08-14T18:58:14.324Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deven367.github.io/projects/clean-plot.html</loc>
+    <lastmod>2023-08-14T18:58:13.568Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deven367.github.io/TIL/isinstance-vs-type.html</loc>
+    <lastmod>2023-08-14T18:58:11.904Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deven367.github.io/TIL/learning-from-pkl-files.html</loc>
+    <lastmod>2023-08-14T18:58:13.164Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deven367.github.io/projects/yt-video-annotator.html</loc>
+    <lastmod>2023-08-14T18:58:13.952Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deven367.github.io/projects/writes-like-you.html</loc>
+    <lastmod>2023-08-14T18:58:14.728Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deven367.github.io/index.html</loc>
+    <lastmod>2023-08-14T18:58:16.388Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deven367.github.io/blog.html</loc>
+    <lastmod>2023-08-14T18:58:17.588Z</lastmod>
   </url>
   <url>
     <loc>https://deven367.github.io/about.html</loc>
-    <lastmod>2023-08-13T14:52:01.757Z</lastmod>
+    <lastmod>2023-08-14T18:58:18.832Z</lastmod>
   </url>
   <url>
     <loc>https://deven367.github.io/posts/welcome/index.html</loc>
-    <lastmod>2023-08-13T14:52:02.329Z</lastmod>
+    <lastmod>2023-08-14T18:58:19.664Z</lastmod>
   </url>
 </urlset>
