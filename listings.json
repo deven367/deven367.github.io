@@ -2,10 +2,10 @@
   {
     "listing": "/projects.html",
     "items": [
-      "/projects/clean-plot.html",
-      "/projects/yt-video-annotator.html",
-      "/projects/ndbev-oauth.html",
       "/projects/writes-like-you.html",
+      "/projects/yt-video-annotator.html",
+      "/projects/clean-plot.html",
+      "/projects/ndbev-oauth.html",
       "/projects/masters-thesis.html"
     ]
   },
