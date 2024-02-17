@@ -9,13 +9,14 @@
 <link>https://deven367.github.io/til.html</link>
 <atom:link href="https://deven367.github.io/til.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.3.450</generator>
+<generator>quarto-1.4.550</generator>
 <lastBuildDate>Fri, 18 Nov 2022 00:00:00 GMT</lastBuildDate>
 <item>
   <title>isinstance vs type and == vs is</title>
   <dc:creator>Deven Mistry</dc:creator>
   <link>https://deven367.github.io/TIL/isinstance-vs-type.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -191,6 +192,7 @@ font-style: inherit;"># prints nothing</span></span></code></pre></div>
   <dc:creator>Deven Mistry</dc:creator>
   <link>https://deven367.github.io/TIL/learning-from-pkl-files.html</link>
   <description><![CDATA[ 
+
 
 
 
