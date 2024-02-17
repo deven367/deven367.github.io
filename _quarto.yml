@@ -11,6 +11,8 @@ website:
       - about.qmd
       - text: "Projects"
         file: projects.qmd
+      - text: "Publications"
+        file: publications.qmd
       - text: "Blog"
         file: blog.qmd
       - text: "TIL"
