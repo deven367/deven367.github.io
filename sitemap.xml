@@ -2,70 +2,74 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://deven367.github.io/blog.html</loc>
-    <lastmod>2024-02-17T23:40:21.590Z</lastmod>
+    <lastmod>2024-02-22T19:00:01.000Z</lastmod>
   </url>
   <url>
     <loc>https://deven367.github.io/til.html</loc>
-    <lastmod>2024-02-17T23:40:21.598Z</lastmod>
+    <lastmod>2024-02-22T19:00:01.012Z</lastmod>
   </url>
   <url>
     <loc>https://deven367.github.io/TIL/isinstance-vs-type.html</loc>
-    <lastmod>2024-02-17T23:40:21.590Z</lastmod>
+    <lastmod>2024-02-22T19:00:01.000Z</lastmod>
   </url>
   <url>
     <loc>https://deven367.github.io/posts/post-with-code/index.html</loc>
-    <lastmod>2024-02-17T23:40:21.594Z</lastmod>
+    <lastmod>2024-02-22T19:00:01.004Z</lastmod>
   </url>
   <url>
     <loc>https://deven367.github.io/posts/2021-06-15-Cleaning text for NLP tasks.html</loc>
-    <lastmod>2024-02-17T23:40:21.590Z</lastmod>
+    <lastmod>2024-02-22T19:00:01.000Z</lastmod>
   </url>
   <url>
-    <loc>https://deven367.github.io/projects/writes-like-you.html</loc>
-    <lastmod>2024-02-17T23:40:21.598Z</lastmod>
-  </url>
-  <url>
-    <loc>https://deven367.github.io/projects/masters-thesis.html</loc>
-    <lastmod>2024-02-17T23:40:21.598Z</lastmod>
-  </url>
-  <url>
-    <loc>https://deven367.github.io/projects/clean-plot.html</loc>
-    <lastmod>2024-02-17T23:40:21.598Z</lastmod>
-  </url>
-  <url>
-    <loc>https://deven367.github.io/about.html</loc>
-    <lastmod>2024-02-17T23:40:21.590Z</lastmod>
-  </url>
-  <url>
-    <loc>https://deven367.github.io/index.html</loc>
-    <lastmod>2024-02-17T23:40:21.590Z</lastmod>
-  </url>
-  <url>
-    <loc>https://deven367.github.io/projects/ndbev-oauth.html</loc>
-    <lastmod>2024-02-17T23:40:21.598Z</lastmod>
+    <loc>https://deven367.github.io/publications/articles/mistry2023comparative.html</loc>
+    <lastmod>2024-02-22T19:00:01.012Z</lastmod>
   </url>
   <url>
     <loc>https://deven367.github.io/projects/yt-video-annotator.html</loc>
-    <lastmod>2024-02-17T23:40:21.598Z</lastmod>
+    <lastmod>2024-02-22T19:00:01.012Z</lastmod>
   </url>
   <url>
-    <loc>https://deven367.github.io/publications/articles/bowdring2021.html</loc>
-    <lastmod>2024-02-17T23:40:21.598Z</lastmod>
+    <loc>https://deven367.github.io/projects/ndbev-oauth.html</loc>
+    <lastmod>2024-02-22T19:00:01.008Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deven367.github.io/index.html</loc>
+    <lastmod>2024-02-22T19:00:01.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deven367.github.io/about.html</loc>
+    <lastmod>2024-02-22T19:00:01.000Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deven367.github.io/projects/clean-plot.html</loc>
+    <lastmod>2024-02-22T19:00:01.008Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deven367.github.io/projects/masters-thesis.html</loc>
+    <lastmod>2024-02-22T19:00:01.008Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deven367.github.io/projects/writes-like-you.html</loc>
+    <lastmod>2024-02-22T19:00:01.012Z</lastmod>
+  </url>
+  <url>
+    <loc>https://deven367.github.io/publications/articles/mistry2021systematic.html</loc>
+    <lastmod>2024-02-22T19:00:01.012Z</lastmod>
   </url>
   <url>
     <loc>https://deven367.github.io/posts/welcome/index.html</loc>
-    <lastmod>2024-02-17T23:40:21.594Z</lastmod>
+    <lastmod>2024-02-22T19:00:01.004Z</lastmod>
   </url>
   <url>
     <loc>https://deven367.github.io/projects.html</loc>
-    <lastmod>2024-02-17T23:40:21.598Z</lastmod>
+    <lastmod>2024-02-22T19:00:01.008Z</lastmod>
   </url>
   <url>
     <loc>https://deven367.github.io/TIL/learning-from-pkl-files.html</loc>
-    <lastmod>2024-02-17T23:40:21.590Z</lastmod>
+    <lastmod>2024-02-22T19:00:01.000Z</lastmod>
   </url>
   <url>
     <loc>https://deven367.github.io/publications.html</loc>
-    <lastmod>2024-02-17T23:40:21.598Z</lastmod>
+    <lastmod>2024-02-22T19:00:01.012Z</lastmod>
   </url>
 </urlset>
