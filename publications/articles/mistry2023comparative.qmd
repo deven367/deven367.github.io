@@ -1,0 +1,22 @@
+---
+title: "A Comparative Study of Sentence Embedding Models for Assessing Semantic Variation"
+type: "article"
+author: "Mistry, Deven Mahesh and Minai, Ali A"
+year: "2023"
+publication: "International Conference on Artificial Neural Networks"
+preprint: "https://arxiv.org/abs/2308.04625"
+doi: "https://doi.org/10.48550/arXiv.2308.04625"
+toc: false
+categories:
+  - sentence embeddings
+  - sentence encoders
+  - semantic similarity
+---
+
+## Citation (APA 7)
+
+> Mistry, Deven Mahesh and Minai, Ali A (2023). A Comparative Study of Sentence Embedding Models for Assessing Semantic Variation. International Conference on Artificial Neural Networks. pg 1-12.
+
+## Abstract
+
+Analyzing the pattern of semantic variation in long real-world texts such as books or transcripts is interesting from the stylistic, cognitive, and linguistic perspectives. It is also useful for applications such as text segmentation, document summarization, and detection of semantic novelty. The recent emergence of several vector-space methods for sentence embedding has made such analysis feasible. However, this raises the issue of how consistent and meaningful the semantic representations produced by various methods are in themselves. In this paper, we compare several recent sentence embedding methods via time-series of semantic similarity between successive sentences and matrices of pairwise sentence similarity for multiple books of literature. In contrast to previous work using target tasks and curated datasets to compare sentence embedding methods, our approach provides an evaluation of the methods 'in the wild'. We find that most of the sentence embedding methods considered do infer highly correlated patterns of semantic similarity in a given document, but show interesting differences.

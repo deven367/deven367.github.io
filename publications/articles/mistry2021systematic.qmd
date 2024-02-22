@@ -1,0 +1,20 @@
+---
+title: "A Systematic Comparative Study of Sentence Embedding Methods Using Real-World Text Corpora"
+type: "article"
+author: "Mistry, Deven Mahesh"
+year: "2021"
+publication: "University of Cincinnati"
+materials: "https://etd.ohiolink.edu/acprod/odb_etd/etd/r/1501/10?clear=10&p10_accession_num=ucin1637311155942699"
+toc: false
+categories:
+  - sentence embeddings
+  - semantic space
+---
+
+## Citation (APA 7)
+
+> Mistry, Deven Mahesh (2021). A Systematic Comparative Study of Sentence Embedding Methods Using Real-World Text Corpora. University of Cincinnati.
+
+## Abstract
+
+Many natural language processing (NLP) tasks require the conversion of textual data to numeric representations. Vector-space representations are the most popular way to do this. Initial vector-space models were used to represent individual words, but several very complex language models have been developed recently that can generate vector-space representations of sentences, paragraphs, and even entire documents. These models use various deep learning architectures including simple RNNs, stacked LSTMs, and Transformers [54]. Typically, the models are evaluated on synthetic or carefully curated benchmark datasets such as GLUE [56], SQuAD [45], COCO [55], etc. and tasks such as sentiment analysis and text classification. However, it is often unclear whether performance on these controlled benchmarks can transfer to non-curated, real-world datasets with uncontrolled semantic noise and complex structure. The goals of this thesis are: 1) To develop a methodology for systematically comparing a representative set of sentence encoder models on real-world texts; and 2) To apply this methodology using several sizeable real-world texts to arrive at a definitive ranking of the methods. The methodology uses the pattern of semantic similarity between sentence pairs to obtain a representation of semantic structure for each document using each encoding method. These structures are then compared statistically, through visualization, and through manual scoring to assess the relative quality of the representations produced by each encoding method. An innovative aspect of this research is the use of multiple English language translations of the same text as a further cross-validation mechanism.
