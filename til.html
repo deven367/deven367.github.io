@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.4.550">
+<meta name="generator" content="quarto-1.4.551">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -208,7 +208,7 @@ window.Quarto = {
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
         
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="fastai">fastai <span class="quarto-category-count">(1)</span></div><div class="category" data-category="pkl">pkl <span class="quarto-category-count">(1)</span></div><div class="category" data-category="python">python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="pytorch">pytorch <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="bash">bash <span class="quarto-category-count">(1)</span></div><div class="category" data-category="fastai">fastai <span class="quarto-category-count">(1)</span></div><div class="category" data-category="linux">linux <span class="quarto-category-count">(1)</span></div><div class="category" data-category="pkl">pkl <span class="quarto-category-count">(1)</span></div><div class="category" data-category="python">python <span class="quarto-category-count">(1)</span></div><div class="category" data-category="pytorch">pytorch <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block column-page-left" id="quarto-document-content">
 
@@ -262,7 +262,18 @@ window.Quarto = {
 </tr>
 </thead>
 <tbody class="list">
-<tr data-index="0" data-categories="python" data-listing-date-sort="1668729600000" data-listing-file-modified-sort="1708628401000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="275" data-listing-title-sort="`isinstance` vs `type` and `==` vs `is`" data-listing-filename-sort="isinstance-vs-type.md">
+<tr data-index="0" data-categories="linux,bash" data-listing-date-sort="1710892800000" data-listing-file-modified-sort="1710949336318" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="172" data-listing-title-sort="`nohup` and `&amp;`" data-listing-filename-sort="nohup.md">
+<td>
+<span class="listing-date">Mar 20, 2024</span>
+</td>
+<td>
+<a href="./TIL/nohup.html" class="title listing-title"><code>nohup</code> and <code>&amp;</code></a>
+</td>
+<td>
+<span class="listing-categories">linux, bash</span>
+</td>
+</tr>
+<tr data-index="1" data-categories="python" data-listing-date-sort="1668729600000" data-listing-file-modified-sort="1710949336318" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="275" data-listing-title-sort="`isinstance` vs `type` and `==` vs `is`" data-listing-filename-sort="isinstance-vs-type.md">
 <td>
 <span class="listing-date">Nov 18, 2022</span>
 </td>
@@ -273,7 +284,7 @@ window.Quarto = {
 <span class="listing-categories">python</span>
 </td>
 </tr>
-<tr data-index="1" data-categories="pkl,pytorch,fastai" data-listing-date-sort="1668470400000" data-listing-file-modified-sort="1708628401000" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="399" data-listing-title-sort="Learning from `pkl` files" data-listing-filename-sort="learning-from-pkl-files.qmd">
+<tr data-index="2" data-categories="pkl,pytorch,fastai" data-listing-date-sort="1668470400000" data-listing-file-modified-sort="1710949336318" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="2" data-listing-word-count-sort="399" data-listing-title-sort="Learning from `pkl` files" data-listing-filename-sort="learning-from-pkl-files.qmd">
 <td>
 <span class="listing-date">Nov 15, 2022</span>
 </td>
@@ -369,6 +380,24 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
     // clear code selection
     e.clearSelection();
   });
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp("https:\/\/deven367\.github\.io\/");
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
   function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
     const config = {
       allowHTML: true,
@@ -403,7 +432,11 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       try { href = new URL(href).hash; } catch {}
       const id = href.replace(/^#\/?/, "");
       const note = window.document.getElementById(id);
-      return note.innerHTML;
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
     });
   }
   const xrefs = window.document.querySelectorAll('a.quarto-xref');
