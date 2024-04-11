@@ -9,19 +9,19 @@
 <link>https://deven367.github.io/projects.html</link>
 <atom:link href="https://deven367.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.551</generator>
+<generator>quarto-1.4.553</generator>
 <lastBuildDate>Fri, 18 Nov 2022 00:00:00 GMT</lastBuildDate>
 <item>
   <title></title>
   <dc:creator>Deven Mistry</dc:creator>
-  <link>https://deven367.github.io/projects/masters-thesis.html</link>
+  <link>https://deven367.github.io/projects/writes-like-you.html</link>
   <description><![CDATA[ 
 
 
 
 
 
-<section id="masters-thesis" class="level1">
+<section id="writes-like-you" class="level1">
 
 
 
@@ -30,51 +30,7 @@
  ]]></description>
   <category>python</category>
   <category>todo</category>
-  <guid>https://deven367.github.io/projects/masters-thesis.html</guid>
-  <pubDate>Fri, 18 Nov 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title></title>
-  <dc:creator>Deven Mistry</dc:creator>
-  <link>https://deven367.github.io/projects/ndbev-oauth.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="ndbev-oauth" class="level1">
-
-
-
-</section>
-
- ]]></description>
-  <category>python</category>
-  <category>todo</category>
-  <guid>https://deven367.github.io/projects/ndbev-oauth.html</guid>
-  <pubDate>Fri, 18 Nov 2022 00:00:00 GMT</pubDate>
-</item>
-<item>
-  <title></title>
-  <dc:creator>Deven Mistry</dc:creator>
-  <link>https://deven367.github.io/projects/clean-plot.html</link>
-  <description><![CDATA[ 
-
-
-
-
-
-<section id="clean-plot" class="level1">
-
-
-
-</section>
-
- ]]></description>
-  <category>python</category>
-  <category>todo</category>
-  <guid>https://deven367.github.io/projects/clean-plot.html</guid>
+  <guid>https://deven367.github.io/projects/writes-like-you.html</guid>
   <pubDate>Fri, 18 Nov 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
@@ -102,14 +58,14 @@
 <item>
   <title></title>
   <dc:creator>Deven Mistry</dc:creator>
-  <link>https://deven367.github.io/projects/writes-like-you.html</link>
+  <link>https://deven367.github.io/projects/ndbev-oauth.html</link>
   <description><![CDATA[ 
 
 
 
 
 
-<section id="writes-like-you" class="level1">
+<section id="ndbev-oauth" class="level1">
 
 
 
@@ -118,7 +74,51 @@
  ]]></description>
   <category>python</category>
   <category>todo</category>
-  <guid>https://deven367.github.io/projects/writes-like-you.html</guid>
+  <guid>https://deven367.github.io/projects/ndbev-oauth.html</guid>
+  <pubDate>Fri, 18 Nov 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Deven Mistry</dc:creator>
+  <link>https://deven367.github.io/projects/masters-thesis.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="masters-thesis" class="level1">
+
+
+
+</section>
+
+ ]]></description>
+  <category>python</category>
+  <category>todo</category>
+  <guid>https://deven367.github.io/projects/masters-thesis.html</guid>
+  <pubDate>Fri, 18 Nov 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Deven Mistry</dc:creator>
+  <link>https://deven367.github.io/projects/clean-plot.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="clean-plot" class="level1">
+
+
+
+</section>
+
+ ]]></description>
+  <category>python</category>
+  <category>todo</category>
+  <guid>https://deven367.github.io/projects/clean-plot.html</guid>
   <pubDate>Fri, 18 Nov 2022 00:00:00 GMT</pubDate>
 </item>
 </channel>
