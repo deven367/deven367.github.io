@@ -9,19 +9,19 @@
 <link>https://deven367.github.io/projects.html</link>
 <atom:link href="https://deven367.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.553</generator>
-<lastBuildDate>Fri, 18 Nov 2022 00:00:00 GMT</lastBuildDate>
+<generator>quarto-1.4.554</generator>
+<lastBuildDate>Fri, 31 May 2024 00:00:00 GMT</lastBuildDate>
 <item>
   <title></title>
   <dc:creator>Deven Mistry</dc:creator>
-  <link>https://deven367.github.io/projects/writes-like-you.html</link>
+  <link>https://deven367.github.io/projects/talk-to-a-paper.html</link>
   <description><![CDATA[ 
 
 
 
 
 
-<section id="writes-like-you" class="level1">
+<section id="talk-to-a-paper" class="level1">
 
 
 
@@ -29,21 +29,23 @@
 
  ]]></description>
   <category>python</category>
-  <category>todo</category>
-  <guid>https://deven367.github.io/projects/writes-like-you.html</guid>
-  <pubDate>Fri, 18 Nov 2022 00:00:00 GMT</pubDate>
+  <category>anthropic</category>
+  <category>llms</category>
+  <category>papers</category>
+  <guid>https://deven367.github.io/projects/talk-to-a-paper.html</guid>
+  <pubDate>Fri, 31 May 2024 00:00:00 GMT</pubDate>
 </item>
 <item>
   <title></title>
   <dc:creator>Deven Mistry</dc:creator>
-  <link>https://deven367.github.io/projects/yt-video-annotator.html</link>
+  <link>https://deven367.github.io/projects/clean-plot.html</link>
   <description><![CDATA[ 
 
 
 
 
 
-<section id="yt-video-annotator" class="level1">
+<section id="clean-plot" class="level1">
 
 
 
@@ -52,7 +54,7 @@
  ]]></description>
   <category>python</category>
   <category>todo</category>
-  <guid>https://deven367.github.io/projects/yt-video-annotator.html</guid>
+  <guid>https://deven367.github.io/projects/clean-plot.html</guid>
   <pubDate>Fri, 18 Nov 2022 00:00:00 GMT</pubDate>
 </item>
 <item>
@@ -80,6 +82,28 @@
 <item>
   <title></title>
   <dc:creator>Deven Mistry</dc:creator>
+  <link>https://deven367.github.io/projects/writes-like-you.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="writes-like-you" class="level1">
+
+
+
+</section>
+
+ ]]></description>
+  <category>python</category>
+  <category>todo</category>
+  <guid>https://deven367.github.io/projects/writes-like-you.html</guid>
+  <pubDate>Fri, 18 Nov 2022 00:00:00 GMT</pubDate>
+</item>
+<item>
+  <title></title>
+  <dc:creator>Deven Mistry</dc:creator>
   <link>https://deven367.github.io/projects/masters-thesis.html</link>
   <description><![CDATA[ 
 
@@ -102,14 +126,14 @@
 <item>
   <title></title>
   <dc:creator>Deven Mistry</dc:creator>
-  <link>https://deven367.github.io/projects/clean-plot.html</link>
+  <link>https://deven367.github.io/projects/yt-video-annotator.html</link>
   <description><![CDATA[ 
 
 
 
 
 
-<section id="clean-plot" class="level1">
+<section id="yt-video-annotator" class="level1">
 
 
 
@@ -118,7 +142,7 @@
  ]]></description>
   <category>python</category>
   <category>todo</category>
-  <guid>https://deven367.github.io/projects/clean-plot.html</guid>
+  <guid>https://deven367.github.io/projects/yt-video-annotator.html</guid>
   <pubDate>Fri, 18 Nov 2022 00:00:00 GMT</pubDate>
 </item>
 </channel>
