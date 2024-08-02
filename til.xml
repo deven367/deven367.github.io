@@ -9,7 +9,7 @@
 <link>https://deven367.github.io/til.html</link>
 <atom:link href="https://deven367.github.io/til.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.555</generator>
+<generator>quarto-1.5.56</generator>
 <lastBuildDate>Wed, 20 Mar 2024 00:00:00 GMT</lastBuildDate>
 <item>
   <title>nohup and &amp;</title>
@@ -26,6 +26,7 @@
 background-color: null;
 font-style: inherit;">bash</span> foo.sh <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">&amp;</span></span></code></pre></div>
 <p>would solve the problem for me, however I was working on a remote machine, which meant that closing the <code>ssh</code> connection would terminate the execution of the command.</p>
 <p>Enter <code>nohup</code>. This is a wonderful bash utility which allows you to run your script in the background on a remote machine even when you close the connection.</p>
@@ -46,6 +47,7 @@ font-style: inherit;"># write (redirect) output to output.txt</span></span>
 background-color: null;
 font-style: inherit;">nohup</span> ./foo.sh <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">&amp;</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&gt;</span> output.txt   <span class="co" style="color: #5E5E5E;
@@ -90,6 +92,7 @@ background-color: null;
 font-style: inherit;">'foo'</span></span>
 <span id="cb1-2"><span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">if</span> <span class="bu" style="color: null;
 background-color: null;
 font-style: inherit;">type</span>(s) <span class="op" style="color: #5E5E5E;
@@ -105,6 +108,7 @@ font-style: inherit;">'this variable is of string type'</span>)</span>
 <span id="cb1-4"></span>
 <span id="cb1-5"><span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">if</span> <span class="bu" style="color: null;
 background-color: null;
 font-style: inherit;">isinstance</span>(s, <span class="bu" style="color: null;
@@ -121,14 +125,18 @@ font-style: inherit;">'this variable is of string type'</span>)</span></code></p
 <p>TLDR; <sup>1</sup></p>
 <div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">class</span> Person: <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">pass</span></span>
 <span id="cb2-2"></span>
 <span id="cb2-3"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">class</span> Student(Person): <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">pass</span></span>
 <span id="cb2-4"></span>
 <span id="cb2-5"></span>
@@ -169,6 +177,7 @@ background-color: null;
 font-style: inherit;">5</span></span>
 <span id="cb3-2"><span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">if</span> n <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">==</span> <span class="dv" style="color: #AD0000;
@@ -182,8 +191,10 @@ background-color: null;
 font-style: inherit;"># prints Yep!</span></span>
 <span id="cb3-3"><span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">if</span> n <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">is</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">5</span>: <span class="bu" style="color: null;
@@ -203,6 +214,7 @@ font-style: inherit;">1</span>)</span>
 <span id="cb3-7"></span>
 <span id="cb3-8"><span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">if</span> L <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">==</span> [<span class="dv" style="color: #AD0000;
@@ -216,8 +228,10 @@ background-color: null;
 font-style: inherit;"># prints Yep!</span></span>
 <span id="cb3-9"><span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">if</span> L <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">is</span> [<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1</span>]: <span class="bu" style="color: null;
@@ -280,8 +294,10 @@ font-style: inherit;">'images'</span></span>
 <span id="cb1-4"></span>
 <span id="cb1-5"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">def</span> label_func(x): <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">return</span> x[<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0</span>].isupper()</span>
@@ -352,6 +368,7 @@ font-style: inherit;">-</span>c010bc50794d<span class="op" style="color: #5E5E5E
 background-color: null;
 font-style: inherit;">&gt;</span> <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">in</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&lt;</span>module<span class="op" style="color: #5E5E5E;
@@ -390,6 +407,7 @@ font-style: inherit;">/</span>torch<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">/</span>serialization.py <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">in</span> find_class(<span class="va" style="color: #111111;
 background-color: null;
 font-style: inherit;">self</span>, mod_name, name)</span>
@@ -397,6 +415,7 @@ font-style: inherit;">self</span>, mod_name, name)</span>
 background-color: null;
 font-style: inherit;">1040</span>                     <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">pass</span></span>
 <span id="cb3-9">   <span class="dv" style="color: #AD0000;
 background-color: null;
@@ -409,6 +428,7 @@ font-style: inherit;">-&gt;</span> <span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">1042</span>             <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">return</span> <span class="bu" style="color: null;
 background-color: null;
 font-style: inherit;">super</span>().find_class(mod_name, name)</span>
@@ -425,12 +445,16 @@ font-style: inherit;"># Load the data (which may in turn use `persistent_load` t
 background-color: null;
 font-style: inherit;">AttributeError</span>: Custom classes <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">or</span> functions exported <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">with</span> your `Learner` <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">not</span> available <span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">in</span> namespace.\Re<span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">-</span>declare<span class="op" style="color: #5E5E5E;
@@ -458,8 +482,10 @@ background-color: null;
 font-style: inherit;">*</span></span>
 <span id="cb4-2"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">def</span> label_func(x): <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">return</span> x[<span class="dv" style="color: #AD0000;
 background-color: null;
 font-style: inherit;">0</span>].isupper()</span>
@@ -485,8 +511,10 @@ background-color: null;
 font-style: inherit;">## notice the empty function declaration</span></span>
 <span id="cb5-4"><span class="kw" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">def</span> label_func(x): <span class="cf" style="color: #003B4F;
 background-color: null;
+font-weight: bold;
 font-style: inherit;">pass</span></span>
 <span id="cb5-5"></span>
 <span id="cb5-6">learn <span class="op" style="color: #5E5E5E;

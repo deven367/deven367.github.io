@@ -9,7 +9,7 @@
 <link>https://deven367.github.io/blog.html</link>
 <atom:link href="https://deven367.github.io/blog.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.4.555</generator>
+<generator>quarto-1.5.56</generator>
 <lastBuildDate>Wed, 10 Apr 2024 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Experience with Distributed Training</title>
