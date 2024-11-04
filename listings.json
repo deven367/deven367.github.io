@@ -1,10 +1,9 @@
 [
   {
-    "listing": "/til.html",
+    "listing": "/publications.html",
     "items": [
-      "/TIL/nohup.html",
-      "/TIL/isinstance-vs-type.html",
-      "/TIL/learning-from-pkl-files.html"
+      "/publications/articles/mistry2023comparative.html",
+      "/publications/articles/mistry2021systematic.html"
     ]
   },
   {
@@ -17,30 +16,33 @@
     ]
   },
   {
-    "listing": "/blog.html",
+    "listing": "/til.html",
     "items": [
-      "/posts/experience-with-distributed-training/index.html",
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html",
-      "/posts/2021-06-15-Cleaning text for NLP tasks.html"
-    ]
-  },
-  {
-    "listing": "/publications.html",
-    "items": [
-      "/publications/articles/mistry2023comparative.html",
-      "/publications/articles/mistry2021systematic.html"
+      "/TIL/sqlite-locked-db.html",
+      "/TIL/viewing-images-in-terminal.html",
+      "/TIL/nohup.html",
+      "/TIL/isinstance-vs-type.html",
+      "/TIL/learning-from-pkl-files.html"
     ]
   },
   {
     "listing": "/projects.html",
     "items": [
       "/projects/talk-to-a-paper.html",
-      "/projects/yt-video-annotator.html",
       "/projects/writes-like-you.html",
+      "/projects/clean-plot.html",
+      "/projects/yt-video-annotator.html",
       "/projects/ndbev-oauth.html",
-      "/projects/masters-thesis.html",
-      "/projects/clean-plot.html"
+      "/projects/masters-thesis.html"
+    ]
+  },
+  {
+    "listing": "/blog.html",
+    "items": [
+      "/posts/experience-with-distributed-training/index.html",
+      "/posts/post-with-code/index.html",
+      "/posts/welcome/index.html",
+      "/posts/2021-06-15-Cleaning text for NLP tasks.html"
     ]
   }
 ]
