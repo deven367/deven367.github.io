@@ -10,7 +10,26 @@
 <atom:link href="https://deven367.github.io/til.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Thu, 24 Oct 2024 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 01 Nov 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title>Locked SQLite DB</title>
+  <dc:creator>Deven Mistry</dc:creator>
+  <link>https://deven367.github.io/TIL/sqlite-locked-db.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+
+
+
+ ]]></description>
+  <category>python</category>
+  <category>sqlite</category>
+  <guid>https://deven367.github.io/TIL/sqlite-locked-db.html</guid>
+  <pubDate>Fri, 01 Nov 2024 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title>Viewing images in the terminal</title>
   <dc:creator>Deven Mistry</dc:creator>
