@@ -91,18 +91,11 @@
     "text": "yt-video-annotator"
   },
   {
-    "objectID": "projects/clean-plot.html",
-    "href": "projects/clean-plot.html",
-    "title": "clean-plot",
+    "objectID": "projects/talk-to-a-paper.html",
+    "href": "projects/talk-to-a-paper.html",
+    "title": "talk-to-a-file",
     "section": "",
-    "text": "clean-plot"
-  },
-  {
-    "objectID": "til.html",
-    "href": "til.html",
-    "title": "Today I Learned (TIL)",
-    "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Categories\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nNov 1, 2024\n\n\nLocked SQLite DB\n\n\npython, sqlite\n\n\n\n\nOct 24, 2024\n\n\nViewing images in the terminal\n\n\npython\n\n\n\n\nMar 20, 2024\n\n\nnohup and &\n\n\nlinux, bash\n\n\n\n\nNov 18, 2022\n\n\nisinstance vs type and == vs is\n\n\npython\n\n\n\n\nNov 15, 2022\n\n\nLearning from pkl files\n\n\npkl, pytorch, fastai\n\n\n\n\n\nNo matching items"
+    "text": "talk-to-a-file"
   },
   {
     "objectID": "projects/writes-like-you.html",
@@ -112,11 +105,25 @@
     "text": "writes-like-you"
   },
   {
-    "objectID": "projects/talk-to-a-paper.html",
-    "href": "projects/talk-to-a-paper.html",
-    "title": "talk-to-a-file",
+    "objectID": "til.html",
+    "href": "til.html",
+    "title": "Today I Learned (TIL)",
     "section": "",
-    "text": "talk-to-a-file"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Categories\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nNov 1, 2024\n\n\nLocked SQLite DB\n\n\npython, sqlite\n\n\n\n\nOct 24, 2024\n\n\nViewing images in the terminal\n\n\npython\n\n\n\n\nMar 20, 2024\n\n\nnohup and &\n\n\nlinux, bash\n\n\n\n\nNov 18, 2022\n\n\nisinstance vs type and == vs is\n\n\npython\n\n\n\n\nNov 15, 2022\n\n\nLearning from pkl files\n\n\npkl, pytorch, fastai\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "projects/clean-plot.html",
+    "href": "projects/clean-plot.html",
+    "title": "clean-plot",
+    "section": "",
+    "text": "clean-plot"
+  },
+  {
+    "objectID": "projects/github-streak.html",
+    "href": "projects/github-streak.html",
+    "title": "github-streak",
+    "section": "",
+    "text": "github-streak"
   },
   {
     "objectID": "projects/ndbev-oauth.html",
@@ -158,7 +165,7 @@
     "href": "projects.html",
     "title": "Projects",
     "section": "",
-    "text": "talk-to-a-file\n\n\n\n\n\n\npython\n\n\nanthropic\n\n\nllms\n\n\npapers\n\n\n\n\n\n\n\n\n\nMay 31, 2024\n\n\nDeven Mistry\n\n\n\n\n\n\n\n\n\n\n\n\nwrites-like-you\n\n\n\n\n\n\npython\n\n\ntodo\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nDeven Mistry\n\n\n\n\n\n\n\n\n\n\n\n\nclean-plot\n\n\n\n\n\n\npython\n\n\ntodo\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nDeven Mistry\n\n\n\n\n\n\n\n\n\n\n\n\nyt-video-annotator\n\n\n\n\n\n\npython\n\n\ntodo\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nDeven Mistry\n\n\n\n\n\n\n\n\n\n\n\n\nndbev-oauth\n\n\n\n\n\n\npython\n\n\ntodo\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nDeven Mistry\n\n\n\n\n\n\n\n\n\n\n\n\nMasters thesis\n\n\n\n\n\n\npython\n\n\ntodo\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nDeven Mistry\n\n\n\n\n\n\nNo matching items"
+    "text": "github-streak\n\n\n\n\n\n\npython\n\n\ngithub\n\n\nghapi\n\n\n\n\n\n\n\n\n\nNov 1, 2024\n\n\nDeven Mistry\n\n\n\n\n\n\n\n\n\n\n\n\ntalk-to-a-file\n\n\n\n\n\n\npython\n\n\nanthropic\n\n\nllms\n\n\npapers\n\n\n\n\n\n\n\n\n\nMay 31, 2024\n\n\nDeven Mistry\n\n\n\n\n\n\n\n\n\n\n\n\nwrites-like-you\n\n\n\n\n\n\npython\n\n\ntodo\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nDeven Mistry\n\n\n\n\n\n\n\n\n\n\n\n\nclean-plot\n\n\n\n\n\n\npython\n\n\ntodo\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nDeven Mistry\n\n\n\n\n\n\n\n\n\n\n\n\nyt-video-annotator\n\n\n\n\n\n\npython\n\n\ntodo\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nDeven Mistry\n\n\n\n\n\n\n\n\n\n\n\n\nndbev-oauth\n\n\n\n\n\n\npython\n\n\ntodo\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nDeven Mistry\n\n\n\n\n\n\n\n\n\n\n\n\nMasters thesis\n\n\n\n\n\n\npython\n\n\ntodo\n\n\n\n\n\n\n\n\n\nNov 18, 2022\n\n\nDeven Mistry\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "publications/articles/mistry2021systematic.html",

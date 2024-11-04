@@ -28,6 +28,7 @@
   {
     "listing": "/projects.html",
     "items": [
+      "/projects/github-streak.html",
       "/projects/talk-to-a-paper.html",
       "/projects/writes-like-you.html",
       "/projects/clean-plot.html",

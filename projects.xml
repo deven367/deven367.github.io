@@ -10,7 +10,30 @@
 <atom:link href="https://deven367.github.io/projects.xml" rel="self" type="application/rss+xml"/>
 <description></description>
 <generator>quarto-1.5.57</generator>
-<lastBuildDate>Fri, 31 May 2024 00:00:00 GMT</lastBuildDate>
+<lastBuildDate>Fri, 01 Nov 2024 00:00:00 GMT</lastBuildDate>
+<item>
+  <title></title>
+  <dc:creator>Deven Mistry</dc:creator>
+  <link>https://deven367.github.io/projects/github-streak.html</link>
+  <description><![CDATA[ 
+
+
+
+
+
+<section id="github-streak" class="level1">
+
+
+
+</section>
+
+ ]]></description>
+  <category>python</category>
+  <category>github</category>
+  <category>ghapi</category>
+  <guid>https://deven367.github.io/projects/github-streak.html</guid>
+  <pubDate>Fri, 01 Nov 2024 00:00:00 GMT</pubDate>
+</item>
 <item>
   <title></title>
   <dc:creator>Deven Mistry</dc:creator>
