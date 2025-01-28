@@ -207,7 +207,7 @@
     "href": "til.html",
     "title": "Today I Learned (TIL)",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Categories\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nNov 1, 2024\n\n\nLocked SQLite DB\n\n\npython, sqlite\n\n\n\n\nOct 24, 2024\n\n\nViewing images in the terminal\n\n\npython\n\n\n\n\nMar 20, 2024\n\n\nnohup and &\n\n\nlinux, bash\n\n\n\n\nNov 18, 2022\n\n\nisinstance vs type and == vs is\n\n\npython\n\n\n\n\nNov 15, 2022\n\n\nLearning from pkl files\n\n\npkl, pytorch, fastai\n\n\n\n\n\nNo matching items"
+    "text": "Order By\n       Default\n         \n          Date - Oldest\n        \n         \n          Date - Newest\n        \n         \n          Title\n        \n         \n          Categories\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nDate\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nNov 1, 2024\n\n\nLocked SQLite DB\n\n\npython, sqlite\n\n\n\n\nOct 24, 2024\n\n\nViewing images in the terminal\n\n\nc, cpp, rust, terminal\n\n\n\n\nMar 20, 2024\n\n\nnohup and &\n\n\nlinux, bash\n\n\n\n\nNov 18, 2022\n\n\nisinstance vs type and == vs is\n\n\npython\n\n\n\n\nNov 15, 2022\n\n\nLearning from pkl files\n\n\npkl, pytorch, fastai\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "posts/post-with-code/index.html",

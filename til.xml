@@ -54,7 +54,10 @@
 
 
  ]]></description>
-  <category>python</category>
+  <category>c</category>
+  <category>cpp</category>
+  <category>rust</category>
+  <category>terminal</category>
   <guid>https://deven367.github.io/TIL/viewing-images-in-terminal.html</guid>
   <pubDate>Thu, 24 Oct 2024 00:00:00 GMT</pubDate>
 </item>
