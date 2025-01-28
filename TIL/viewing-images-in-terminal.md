@@ -2,7 +2,7 @@
 title: "Viewing images in the terminal"
 author: "Deven Mistry"
 date: "2024-10-24"
-categories: [python]
+categories: [c,cpp,rust,terminal]
 ---
 
 The ability to view images in a terminal is a very handy skill. I recently ran into this issue when I was working on a project which had over a million images on a network drive.
