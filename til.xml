@@ -9,7 +9,7 @@
 <link>https://deven367.github.io/til.html</link>
 <atom:link href="https://deven367.github.io/til.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.5.57</generator>
+<generator>quarto-1.6.40</generator>
 <lastBuildDate>Fri, 01 Nov 2024 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Locked SQLite DB</title>
@@ -40,6 +40,16 @@
 
 
 
+<p>The ability to view images in a terminal is a very handy skill. I recently ran into this issue when I was working on a project which had over a million images on a network drive.</p>
+<p>The problem became a complex one to solve as even running a mere <code>ls</code> command was not an option on the network drive.</p>
+<p>Firing up a jupyter notebook server everytime to view an image was not a feasible option. And there had to be a better way.</p>
+<p>Upon some searching I found some popular options</p>
+<ol type="1">
+<li><a href="https://github.com/derf/feh">feh</a></li>
+<li><a href="https://github.com/stefanhaustein/TerminalImageViewer">TerminalImageViewer</a> (tiv)</li>
+<li><a href="https://github.com/atanunq/viu">Viu</a></li>
+</ol>
+<p>In my use case, the best one which worked the best in my use case was <code>viu</code> because of its support for jpgs.</p>
 
 
 
