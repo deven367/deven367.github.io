@@ -12,7 +12,9 @@ toc: false
 
 css: styles.css
 number-sections: false
-theme: cosmo
+theme:
+  light: flatly
+  dark: darkly
 highlight-style: tango
 
 comments:
