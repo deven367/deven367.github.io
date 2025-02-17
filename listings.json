@@ -1,14 +1,11 @@
 [
   {
-    "listing": "/projects.html",
+    "listing": "/blog.html",
     "items": [
-      "/projects/github-streak.html",
-      "/projects/talk-to-a-paper.html",
-      "/projects/ndbev-oauth.html",
-      "/projects/clean-plot.html",
-      "/projects/writes-like-you.html",
-      "/projects/masters-thesis.html",
-      "/projects/yt-video-annotator.html"
+      "/posts/experience-with-distributed-training/index.html",
+      "/posts/post-with-code/index.html",
+      "/posts/welcome/index.html",
+      "/posts/2021-06-15-Cleaning text for NLP tasks.html"
     ]
   },
   {
@@ -21,19 +18,23 @@
     ]
   },
   {
-    "listing": "/blog.html",
+    "listing": "/publications.html",
     "items": [
-      "/posts/experience-with-distributed-training/index.html",
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html",
-      "/posts/2021-06-15-Cleaning text for NLP tasks.html"
+      "/publications/articles/mistry2025emergence.html",
+      "/publications/articles/mistry2023comparative.html",
+      "/publications/articles/mistry2021systematic.html"
     ]
   },
   {
-    "listing": "/publications.html",
+    "listing": "/projects.html",
     "items": [
-      "/publications/articles/mistry2023comparative.html",
-      "/publications/articles/mistry2021systematic.html"
+      "/projects/github-streak.html",
+      "/projects/talk-to-a-paper.html",
+      "/projects/writes-like-you.html",
+      "/projects/yt-video-annotator.html",
+      "/projects/masters-thesis.html",
+      "/projects/ndbev-oauth.html",
+      "/projects/clean-plot.html"
     ]
   },
   {
