@@ -9,13 +9,14 @@
 <link>https://deven367.github.io/til.html</link>
 <atom:link href="https://deven367.github.io/til.xml" rel="self" type="application/rss+xml"/>
 <description></description>
-<generator>quarto-1.6.40</generator>
+<generator>quarto-1.8.25</generator>
 <lastBuildDate>Fri, 01 Nov 2024 00:00:00 GMT</lastBuildDate>
 <item>
   <title>Locked SQLite DB</title>
   <dc:creator>Deven Mistry</dc:creator>
   <link>https://deven367.github.io/TIL/sqlite-locked-db.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -35,6 +36,7 @@
   <dc:creator>Deven Mistry</dc:creator>
   <link>https://deven367.github.io/TIL/viewing-images-in-terminal.html</link>
   <description><![CDATA[ 
+
 
 
 
@@ -71,18 +73,19 @@
 
 
 
+
 <p>Yesterday, I ran into a problem where I wanted to run a shell script in the background on a linux machine. I knew that</p>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><span class="fu" style="color: #4758AB;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb1-1"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">bash</span> foo.sh <span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
-font-style: inherit;">&amp;</span></span></code></pre></div>
+font-style: inherit;">&amp;</span></span></code></pre></div></div>
 <p>would solve the problem for me, however I was working on a remote machine, which meant that closing the <code>ssh</code> connection would terminate the execution of the command.</p>
 <p>Enter <code>nohup</code>. This is a wonderful bash utility which allows you to run your script in the background on a remote machine even when you close the connection.</p>
 <p><code>nohup</code> is just short for <code>no hang up</code>. You can use this command in multiple ways. There’s a wonderful article on DigitalOcean<sup>1</sup> explaining this command. I’ll just list a few of them here.</p>
 <p>By default, <code>nohup</code> will save the output of the execution in <code>nohup.out</code>. You can change that with the redirect output command.</p>
-<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb2-1"></span>
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode sh code-with-copy"><code class="sourceCode bash"><span id="cb2-1"></span>
 <span id="cb2-2"><span class="fu" style="color: #4758AB;
 background-color: null;
 font-style: inherit;">nohup</span> ./foo.sh</span>
@@ -102,7 +105,7 @@ font-style: inherit;">&amp;</span> <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">&gt;</span> output.txt   <span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># write (redirect) output to output.txt and run the script in the background</span></span></code></pre></div>
+font-style: inherit;"># write (redirect) output to output.txt and run the script in the background</span></span></code></pre></div></div>
 <p>Here’s another good reference from StackOverFlow<sup>2</sup></p>
 
 
@@ -130,12 +133,13 @@ font-style: inherit;"># write (redirect) output to output.txt and run the script
 
 
 
+
 <p>There are multiple ways in Python to achieve a single task and at times you can get away with implementing things the wrong way and getting the correct answer.</p>
 <p>This TIL has come into existence as I struggled with a issue that I was trying to fix at work.</p>
 <section id="isinstance-vs-type" class="level2">
 <h2 class="anchored" data-anchor-id="isinstance-vs-type"><code>isinstance</code> vs <code>type</code></h2>
 <p>We’ve all used the <code>type</code> and the <code>isinstance</code> method at some point in our functions.</p>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb1-1">s <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb1-1">s <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="st" style="color: #20794D;
 background-color: null;
@@ -168,12 +172,12 @@ font-style: inherit;">str</span>):</span>
 background-color: null;
 font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'this variable is of string type'</span>)</span></code></pre></div>
+font-style: inherit;">'this variable is of string type'</span>)</span></code></pre></div></div>
 <p>If you were to execute this code, you would get the same output.</p>
 <p>But what’s the difference between them?</p>
 <p><code>instance</code> can check types of even derived classes (meaning, it is intended to be used in cases involving inheritence) whereas <code>type</code> is not.</p>
 <p>TLDR; <sup>1</sup></p>
-<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="kw" style="color: #003B4F;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="kw" style="color: #003B4F;
 background-color: null;
 font-weight: bold;
 font-style: inherit;">class</span> Person: <span class="cf" style="color: #003B4F;
@@ -213,14 +217,14 @@ font-style: inherit;">type</span>(Student()) <span class="op" style="color: #5E5
 background-color: null;
 font-style: inherit;">==</span> Person           <span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># returns False, and this probably won't be what you want.</span></span></code></pre></div>
+font-style: inherit;"># returns False, and this probably won't be what you want.</span></span></code></pre></div></div>
 <p>There’s a similar confusion between <code>is</code> and <code>==</code>.</p>
 </section>
 <section id="is-vs" class="level2">
 <h2 class="anchored" data-anchor-id="is-vs"><code>is</code> vs <code>==</code></h2>
 <p><code>is</code> looks for the same object (in memory), whereas <code>==</code> looks for the values referred by the variables.</p>
 <p>TLDR; <sup>2</sup></p>
-<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb3-1">n <span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb3-1">n <span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">=</span> <span class="dv" style="color: #AD0000;
 background-color: null;
@@ -290,7 +294,7 @@ font-style: inherit;">print</span>(<span class="st" style="color: #20794D;
 background-color: null;
 font-style: inherit;">'Yay!'</span>)  <span class="co" style="color: #5E5E5E;
 background-color: null;
-font-style: inherit;"># prints nothing</span></span></code></pre></div>
+font-style: inherit;"># prints nothing</span></span></code></pre></div></div>
 <p>H/T to <a href="https://github.com/muellerzr">Zach Mueller</a> for helping me understand this</p>
 
 
@@ -318,9 +322,10 @@ font-style: inherit;"># prints nothing</span></span></code></pre></div>
 
 
 
+
 <p>When we train a model using <code>fastai</code> and export it using <code>learn.export</code>, you need to re-declare the functions that you had used to train the model.</p>
 <p>Let me show you what I mean by that,</p>
-<div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1" style="background: #f1f3f5;"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">from</span> fastai.vision.<span class="bu" style="color: null;
 background-color: null;
@@ -378,10 +383,10 @@ background-color: null;
 font-style: inherit;">1</span>)</span>
 <span id="cb1-13">learn.export(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'saved-model.pkl'</span>)</span></code></pre></div>
+font-style: inherit;">'saved-model.pkl'</span>)</span></code></pre></div></div>
 <p>Here, we are training a simple model for image classification and then exporting the saved model.</p>
 <p>Now, if you were to use this model in a different jupyter notebook or a py file using the <code>load_learner</code> function.</p>
-<div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="im" style="color: #00769E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb2" style="background: #f1f3f5;"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb2-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">from</span> fastai.vision.<span class="bu" style="color: null;
 background-color: null;
@@ -394,9 +399,9 @@ font-style: inherit;">*</span></span>
 background-color: null;
 font-style: inherit;">=</span> load_learner(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'saved-model.pkl'</span>)</span></code></pre></div>
+font-style: inherit;">'saved-model.pkl'</span>)</span></code></pre></div></div>
 <p>You would get an error something like this…</p>
-<div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="op" style="color: #5E5E5E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb3" style="background: #f1f3f5;"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb3-1"><span class="op" style="color: #5E5E5E;
 background-color: null;
 font-style: inherit;">---------------------------------------------------------------------------</span></span>
 <span id="cb3-2"><span class="pp" style="color: #AD0000;
@@ -518,10 +523,10 @@ font-style: inherit;">'t get attribute '</span>label_func<span class="st" style=
 background-color: null;
 font-style: inherit;">' on &lt;module '</span>__main__<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'&gt;</span></span></code></pre></div>
+font-style: inherit;">'&gt;</span></span></code></pre></div></div>
 <p>This error is essentially saying that, before you load your model, the script (py file) or the notebook is looking for the function <code>label_func</code>.</p>
 <p>Previously, I would just copy that whole function again from the previous file and paste it in my new file, something like this.</p>
-<div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb4-1"><span class="im" style="color: #00769E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb4" style="background: #f1f3f5;"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb4-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">from</span> fastai.vision.<span class="bu" style="color: null;
 background-color: null;
@@ -544,9 +549,9 @@ font-style: inherit;">0</span>].isupper()</span>
 background-color: null;
 font-style: inherit;">=</span> load_learner(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'saved-model.pkl'</span>)</span></code></pre></div>
+font-style: inherit;">'saved-model.pkl'</span>)</span></code></pre></div></div>
 <p>But, as it turns out, the <code>load_learner</code> is just looking for a reference to the <code>label_func</code> and not it’s entire definition. So, in theory, you could have your code look something like…</p>
-<div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb5-1"><span class="im" style="color: #00769E;
+<div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb5" style="background: #f1f3f5;"><pre class="sourceCode py code-with-copy"><code class="sourceCode python"><span id="cb5-1"><span class="im" style="color: #00769E;
 background-color: null;
 font-style: inherit;">from</span> fastai.vision.<span class="bu" style="color: null;
 background-color: null;
@@ -571,7 +576,7 @@ font-style: inherit;">pass</span></span>
 background-color: null;
 font-style: inherit;">=</span> load_learner(<span class="st" style="color: #20794D;
 background-color: null;
-font-style: inherit;">'saved-model.pkl'</span>)</span></code></pre></div>
+font-style: inherit;">'saved-model.pkl'</span>)</span></code></pre></div></div>
 <p>With this declaration, your inference would work just fine and you won’t get any problems.</p>
 <div class="callout callout-style-default callout-note callout-titled">
 <div class="callout-header d-flex align-content-center">
