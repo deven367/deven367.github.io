@@ -6,10 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Harlow Malloc">
-<meta name="dcterms.date" content="2022-11-14">
+<meta name="author" content="Bajaj, Anooshka; Mistry, Deven Mahesh; Maini, Sahaj Singh; Aggarwal, Yash; Tiganj, Zoran">
 
-<title>Post With Code – Deven Mistry</title>
+<title>Beyond Semantics - How Temporal Biases Shape Retrieval in Transformer and State-Space Models – Deven Mistry</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -40,14 +39,14 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b758ccaa5987ceb1b75504551e579abf.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-587c61ba64f3a5504c4d52d930310e48.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-0a95de2c3be981c2e03029825b16c585.css" rel="stylesheet" class="quarto-color-scheme" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a95de2c3be981c2e03029825b16c585.css" rel="stylesheet" class="quarto-color-scheme quarto-color-alternate" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-0a95de2c3be981c2e03029825b16c585.css" rel="stylesheet" class="quarto-color-scheme-extra" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-960d9d362f81d399278ec3e29b622b37.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
-<link href="../../site_libs/bootstrap/bootstrap-dark-e7f4145358ce1d0cd37d8d374dbb44f9.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
-<link href="../../site_libs/bootstrap/bootstrap-960d9d362f81d399278ec3e29b622b37.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-9684b8f220e822746f2d31ce2cdeab35.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme" id="quarto-bootstrap" data-mode="light">
+<link href="../../site_libs/bootstrap/bootstrap-dark-8ba13da6d18e489716cbdc2006635e6e.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme quarto-color-alternate" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-9684b8f220e822746f2d31ce2cdeab35.min.css" rel="stylesheet" append-hash="true" class="quarto-color-scheme-extra" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -301,11 +300,11 @@ ul.task-list li input[type="checkbox"] {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-body">
-      <h1 class="title">Post With Code</h1>
+      <h1 class="title">Beyond Semantics - How Temporal Biases Shape Retrieval in Transformer and State-Space Models</h1>
                                 <div class="quarto-categories">
-                <div class="quarto-category">news</div>
-                <div class="quarto-category">code</div>
-                <div class="quarto-category">analysis</div>
+                <div class="quarto-category">language models</div>
+                <div class="quarto-category">episodic memory</div>
+                <div class="quarto-category">free recall</div>
               </div>
                   </div>
   </div>
@@ -316,18 +315,20 @@ ul.task-list li input[type="checkbox"] {
       <div>
       <div class="quarto-title-meta-heading">Author</div>
       <div class="quarto-title-meta-contents">
-               <p>Harlow Malloc </p>
+               <p>Bajaj, Anooshka; Mistry, Deven Mahesh; Maini, Sahaj Singh; Aggarwal, Yash; Tiganj, Zoran </p>
             </div>
     </div>
       
-      <div>
-      <div class="quarto-title-meta-heading">Published</div>
-      <div class="quarto-title-meta-contents">
-        <p class="date">November 14, 2022</p>
-      </div>
-    </div>
     
       
+      <div>
+      <div class="quarto-title-meta-heading">Doi</div>
+      <div class="quarto-title-meta-contents">
+        <p class="doi">
+          <a href="https://doi.org/https://doi.org/10.48550/arXiv.2510.22752">https://doi.org/10.48550/arXiv.2510.22752</a>
+        </p>
+      </div>
+    </div>
     </div>
     
   
@@ -343,9 +344,18 @@ ul.task-list li input[type="checkbox"] {
 
 
 
-<p>This is a post with executable code.</p>
+<section id="citation-apa-7" class="level2">
+<h2 class="anchored" data-anchor-id="citation-apa-7">Citation (APA 7)</h2>
+<blockquote class="blockquote">
+<p>Bajaj, A., Mistry, D. M., Maini, S. S., Aggarwal, Y., &amp; Tiganj, Z. (2025). Beyond Semantics: How Temporal Biases Shape Retrieval in Transformer and State-Space Models. arXiv preprint arXiv:2510.22752</p>
+</blockquote>
+</section>
+<section id="abstract" class="level2">
+<h2 class="anchored" data-anchor-id="abstract">Abstract</h2>
+<p>In-context learning is governed by both temporal and semantic relationships, shaping how Large Language Models (LLMs) retrieve contextual information. Analogous to human episodic memory, where the retrieval of specific events is enabled by separating events that happened at different times, this work probes the ability of various pretrained LLMs, including transformer and state-space models, to differentiate and retrieve temporally separated events. Specifically, we prompted models with sequences containing multiple presentations of the same token, which reappears at the sequence end. By fixing the positions of these repeated tokens and permuting all others, we removed semantic confounds and isolated temporal effects on next-token prediction. Across diverse sequences, models consistently placed the highest probabilities on tokens following a repeated token, but with a notable bias for those nearest the beginning or end of the input. An ablation experiment linked this phenomenon in transformers to induction heads. Extending the analysis to unique semantic contexts with partial overlap further demonstrated that memories embedded in the middle of a prompt are retrieved less reliably. Despite architectural differences, state-space and transformer models showed comparable temporal biases. Our findings deepen the understanding of temporal biases in in-context learning and offer an illustration of how these biases can enable temporal separation and episodic retrieval.</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

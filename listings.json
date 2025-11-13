@@ -12,13 +12,22 @@
     ]
   },
   {
-    "listing": "/blog.html",
+    "listing": "/til.html",
     "items": [
-      "/posts/autograder.html",
-      "/posts/experience-with-distributed-training/index.html",
-      "/posts/post-with-code/index.html",
-      "/posts/welcome/index.html",
-      "/posts/2021-06-15-Cleaning text for NLP tasks.html"
+      "/TIL/sqlite-locked-db.html",
+      "/TIL/viewing-images-in-terminal.html",
+      "/TIL/nohup.html",
+      "/TIL/isinstance-vs-type.html",
+      "/TIL/learning-from-pkl-files.html"
+    ]
+  },
+  {
+    "listing": "/publications.html",
+    "items": [
+      "/publications/articles/bajaj2025beyond.html",
+      "/publications/articles/mistry2025emergence.html",
+      "/publications/articles/mistry2023comparative.html",
+      "/publications/articles/mistry2021systematic.html"
     ]
   },
   {
@@ -32,21 +41,13 @@
     ]
   },
   {
-    "listing": "/publications.html",
+    "listing": "/blog.html",
     "items": [
-      "/publications/articles/mistry2025emergence.html",
-      "/publications/articles/mistry2023comparative.html",
-      "/publications/articles/mistry2021systematic.html"
-    ]
-  },
-  {
-    "listing": "/til.html",
-    "items": [
-      "/TIL/sqlite-locked-db.html",
-      "/TIL/viewing-images-in-terminal.html",
-      "/TIL/nohup.html",
-      "/TIL/isinstance-vs-type.html",
-      "/TIL/learning-from-pkl-files.html"
+      "/posts/autograder.html",
+      "/posts/experience-with-distributed-training/index.html",
+      "/posts/post-with-code/index.html",
+      "/posts/welcome/index.html",
+      "/posts/2021-06-15-Cleaning text for NLP tasks.html"
     ]
   }
 ]
